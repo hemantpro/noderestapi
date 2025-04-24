@@ -16,8 +16,8 @@ https://docs.docker.com/desktop/setup/install/mac-install/
 ## - Running the app
 -- Clone the repo and CD to Project Dir
 -- Create an docker image which will be based on Dockerfile
-- Docker build -t [replace with tag] .
-- Docker image ls [to check image]
+- Docker build -t "[replace with tag]" .
+- Docker image ls ->> [to check if image is available]
 Create and Start a container based on the image
 - Docker run -d --name [replace with some name] -p 8080:8080 IMAGE TAG
 - Docker container ps [to check if container is running]
