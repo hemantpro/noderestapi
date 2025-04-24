@@ -1,11 +1,11 @@
 # Build a simple HTTP web server API
 
-RestApi has been developed using nodejs modules `express` and `axios` and for test automation, `supertest` and `jest` testing modules have been used.
+RestApi has been developed using nodejs modules `express` and `axios` and `supertest` and `jest` node modules have been used for automated test.
 
 
 # Getting Started
-
-## Setup
+## With Containerization
+## - Setup
 ### Install NodeJS
 ### Install Docker
 ### Clone the repo and CD to Project Dir
