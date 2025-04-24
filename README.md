@@ -4,12 +4,33 @@ RestApi has been developed using nodejs modules `express` and `axios` and `super
 
 
 # Getting Started
-## With Containerization
-## - Setup
+There are two approaches to run this application
+- Using Docker Container
+- Or Running via Node
+
+## With Docker
+## - Install Docker
+-- Docker Engine or Docker Desktop
+https://docs.docker.com/desktop/setup/install/mac-install/
+
+## - Running the app
+-- Clone the repo and CD to Project Dir
+-- Create an docker image which will be based on Dockerfile
+- Docker build -t [replace with tag] .
+- Docker image ls [to check image]
+Create and Start a container based on the image
+- Docker run -d --name [replace with some name] -p 8080:8080 IMAGE TAG
+- Docker container ps [to check if container is running]
+
+- Open the browser and enter http://localhost:8080/[username] e.g. http://localhost:8080/octocat
+
+## With Node
+
 ### Install NodeJS
-### Install Docker
+https://nodejs.org/en/download
+
 ### Clone the repo and CD to Project Dir
-### Install Node Dependenices
+### Install Node Dependenices based on package.json
 ``` npm install```
 
 ## For running the app
@@ -18,16 +39,6 @@ RestApi has been developed using nodejs modules `express` and `axios` and `super
 
 ### Testing the app
 node test
-
-### Containerization
-- CD to Project Dir
-Create an docker image which will be based on Dockerfile
-- Docker build -t [replace with tag] .
-- Docker image ls [to check image]
-Create and Start a container based on the image
-- Docker run -d --name [replace with some name] -p 8080:8080 IMAGE TAG
-- Docker container ps [to check if container is running]
-
 
 
 
