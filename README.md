@@ -41,14 +41,16 @@ https://nodejs.org/en/download
 
 - Clone the repo and CD to Project Dir
 - Install Node Dependenices based on package.json
+
 ``` npm install```
 
  - For running the app
+
 ``` node index.js ```
 - Open the browser and enter http://localhost:8080/[username] e.g. http://localhost:8080/octocat
 
 ### Testing the app
-node test
+```node test```
 
 
 
