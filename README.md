@@ -42,7 +42,7 @@ https://nodejs.org/en/download
 - Clone the repo and CD to Project Dir
 - Install Node Dependenices based on package.json
 
-``` npm install```
+` npm install`
 
  - For running the app
 
