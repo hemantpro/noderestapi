@@ -11,12 +11,12 @@ http://localhost:8080/octocat
 
 ### Install Docker
 Docker Engine / Docker Desktop
->- https://docs.docker.com/engine/install/
+- https://docs.docker.com/engine/install/
 
->- https://docs.docker.com/get-started/introduction/get-docker-desktop/
+- https://docs.docker.com/get-started/introduction/get-docker-desktop/
 
 ### Install NodeJS
->- https://nodejs.org/en/download
+- https://nodejs.org/en/download
 
 # Script high-level Info
 
@@ -58,8 +58,8 @@ Install Node Dependenices based on package.json
 - Open the browser and enter http://localhost:8080/[username] e.g. http://localhost:8080/octocat
 
 ### Troubleshooting
->- Docker image ls ->> [to check if image is available]
->- Docker container ps [to check if container is running]
+- Docker image ls ->> [to check if image is available]
+- Docker container ps [to check if container is running]
 
 
 
