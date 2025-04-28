@@ -48,25 +48,21 @@ Clone the sample application to use with this Readme. Open a terminal, change di
 
 ## Dockerize the WebServer API
 - Confirm you are in the root of project directory
-- Create an docker image based on the Dockerfile
-> 
+- Create an docker image based on the Dockerfile 
 `
 Docker build -t "hg/gist" .
 `
->- Docker image ls ->> [to check if image is available]
 - Create and Start a container based on the image
->- Docker run -d --name [replace with some name] -p 8080:8080 IMAGE TAG
-
+ `
+ Docker run -d --name "hg_gist_server" -p 8080:8080 hg/gist
+`
 ### Running the app
->- Docker container ps [to check if container is running]
-
 - Open the browser and enter http://localhost:8080/[username] e.g. http://localhost:8080/octocat
 
-## With Node
+### Troubleshooting
+>- Docker image ls ->> [to check if image is available]
+>- Docker container ps [to check if container is running]
 
-### Running the app
-
-- Clone the repo and CD to Project Dir
 
 
 
