@@ -10,7 +10,7 @@ http://localhost:8080/octocat
 - Latest Node.js installed
 
 ### Install Docker
-- Docker Engine / Docker Desktop
+Docker Engine / Docker Desktop
 >- https://docs.docker.com/engine/install/
 
 >- https://docs.docker.com/get-started/introduction/get-docker-desktop/
@@ -34,14 +34,14 @@ And for test automation, following nodejs modules have been used:
 Clone the sample application to use with this Readme. Open a terminal, change directory to a directory that you have used to clone the code.
 
 ## Build HTTP WebServer
-- Install Node Dependenices based on package.json
+Install Node Dependenices based on package.json
 
 >> ` npm install`
 
 ### Running the app
 
 >> ``` node index.js ```
-- Open the browser and enter http://localhost:8080/[username] e.g. http://localhost:8080/octocat
+>>- Open the browser and enter http://localhost:8080/[username] e.g. http://localhost:8080/octocat
 
 ### Testing the app
 >> ```node test```
