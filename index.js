@@ -1,5 +1,4 @@
 // Import required modules
-require('dotenv').config();
 const express = require('express');
 const axios = require('axios');
 const app = express();
@@ -8,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Route to fetch GitHub user repositories
+// Route to fetch GitHub user gists
     app.get('/:username', async (req, res) => {
     const {username} = req.params;
     try {
@@ -23,7 +22,7 @@ app.use(express.urlencoded({ extended: true }));
             // description: gist.description,
             url: gist.html_url
         }));
-        res.json(gist_output);  // Send the user repositories data as JSON response
+        res.json(gist_output);  // Send the user gists data as JSON response
         res.sendStatus(200);
         res.send(url);
     } catch (error) {
