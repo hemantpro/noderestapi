@@ -48,11 +48,13 @@ Clone the sample application to use with this Readme. Open a terminal, change di
 
 ## Dockerize the WebServer API
 - Confirm you are in the root of project directory
-- Create an docker image based on the Dockerfile 
+- Create an docker image based on the Dockerfile
+
 `
 Docker build -t "hg/gist" .
 `
-- Create and Start a container based on the image
+- Create and Start the container based on the image
+
  `
  Docker run -d --name "hg_gist_server" -p 8080:8080 hg/gist
 `
