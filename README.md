@@ -11,12 +11,12 @@ http://localhost:8080/octocat
 
 ### Install Docker
 - Docker Engine / Docker Desktop
-> https://docs.docker.com/engine/install/
+>- https://docs.docker.com/engine/install/
 
-> https://docs.docker.com/get-started/introduction/get-docker-desktop/
+>- https://docs.docker.com/get-started/introduction/get-docker-desktop/
 
 ### Install NodeJS
-> https://nodejs.org/en/download
+>- https://nodejs.org/en/download
 
 # Script high-level Info
 
@@ -36,28 +36,24 @@ Clone the sample application to use with this Readme. Open a terminal, change di
 ## Build HTTP WebServer
 - Install Node Dependenices based on package.json
 
-` npm install`
+>> ` npm install`
 
 ### Running the app
 
-``` node index.js ```
+>> ``` node index.js ```
 - Open the browser and enter http://localhost:8080/[username] e.g. http://localhost:8080/octocat
 
 ### Testing the app
-```node test```
+>> ```node test```
 
 ## Dockerize the WebServer API
 - Confirm you are in the root of project directory
 - Create an docker image based on the Dockerfile
 
-`
-Docker build -t "hg/gist" .
-`
+>> `Docker build -t "hg/gist" .`
 - Create and Start the container based on the image
 
- `
- Docker run -d --name "hg_gist_server" -p 8080:8080 hg/gist
-`
+>> `Docker run -d --name "hg_gist_server" -p 8080:8080 hg/gist`
 ### Running the app
 - Open the browser and enter http://localhost:8080/[username] e.g. http://localhost:8080/octocat
 
