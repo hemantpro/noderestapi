@@ -36,24 +36,24 @@ Clone the sample application to use with this Readme. Open a terminal, change di
 ## Build HTTP WebServer
 Install Node Dependenices based on package.json
 
->> ` npm install`
+` npm install`
 
 ### Running the app
 
->> ``` node index.js ```
->>- Open the browser and enter http://localhost:8080/[username] e.g. http://localhost:8080/octocat
+ ``` node index.js ```
+- Open the browser and enter http://localhost:8080/[username] e.g. http://localhost:8080/octocat
 
 ### Testing the app
->> ```node test```
+ ```node test```
 
 ## Dockerize the WebServer API
 - Confirm you are in the root of project directory
 - Create an docker image based on the Dockerfile
 
->> `Docker build -t "hg/gist" .`
+ `Docker build -t "hg/gist" .`
 - Create and Start the container based on the image
 
->> `Docker run -d --name "hg_gist_server" -p 8080:8080 hg/gist`
+ `Docker run -d --name "hg_gist_server" -p 8080:8080 hg/gist`
 ### Running the app
 - Open the browser and enter http://localhost:8080/[username] e.g. http://localhost:8080/octocat
 
