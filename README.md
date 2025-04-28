@@ -11,14 +11,14 @@ http://localhost:8080/octocat
 
 ### Install Docker
 - Docker Engine / Docker Desktop
->-https://docs.docker.com/engine/install/
+> https://docs.docker.com/engine/install/
 
->-https://docs.docker.com/get-started/introduction/get-docker-desktop/
+> https://docs.docker.com/get-started/introduction/get-docker-desktop/
 
 ### Install NodeJS
-https://nodejs.org/en/download
+> https://nodejs.org/en/download
 
-# Scrip high-level Info
+# Script high-level Info
 
 RestApi has been developed using following nodejs modules
 
@@ -32,10 +32,6 @@ And for test automation, following nodejs modules have been used:
 # Getting Started
 ## Get the sample application
 Clone the sample application to use with this Readme. Open a terminal, change directory to a directory that you have used to clone the code.
-
-There are two approaches to run this application
-- Using Docker Container
-- Or Running via NodeJS
 
 ## Build HTTP WebServer
 - Install Node Dependenices based on package.json
