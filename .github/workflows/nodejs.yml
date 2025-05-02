@@ -1,16 +1,17 @@
-name: nodejs CI
+name: nodejs ci
 on: push
-description: This CI workflow will build and test nodejs application
+description: workflow to build and test nodejs application
 jobs:
-  build: 
+#   name: Build NodeJS
+  build:
     runs-on: ubuntu-latest
-    name: Build NodeJS
+    name: uild NodeJS
     steps:
       - uses: actions/checkout@v4
       - name: Use NodeJS
         uses: actions/setup-node@v4
         with:
-          node-version: '20.x'
+            node-version: '20.x'
       - run: npm install
       - run: npm test
       
