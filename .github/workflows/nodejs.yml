@@ -2,10 +2,10 @@ name: nodejs ci
 on: push
 description: workflow to build and test nodejs application
 jobs:
-#   name: Build NodeJS
+  name: NodeJS Workflow
   build:
     runs-on: ubuntu-latest
-    name: uild NodeJS
+    name: Build NodeJS
     steps:
       - uses: actions/checkout@v4
       - name: Use NodeJS
